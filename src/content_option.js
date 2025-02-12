@@ -20,7 +20,7 @@ const introdata = {
         third: "I develop Websites",
     },
     description: "Raxmonberganov Xayrullo is a front-end developer who creates user-friendly and aesthetic interfaces. Attentive to details, responsible, purposeful and strives for an ideal result.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://cimg.co/w/articles-attachments/0/611/e04b918532.jpeg",
 };
 
 const dataabout = {
@@ -133,9 +133,9 @@ const contactConfig = {
     description: "Ready for cooperation and new projects! Contact me in a convenient way:",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_wis39e1",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_20l9zhp",
+    YOUR_TEMPLATE_ID: "template_lrnir4h",
+    YOUR_USER_ID: "Z7fKWBOc1u_NAgipt",
 };
 
 const socialprofils = {
