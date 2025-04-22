@@ -197,7 +197,7 @@
     bottom: 0;
     font-family: Marcellus;
     font-size: 14px;
-    background: var(--primary-color);
+    background: transparent;
 }
 
 .menu_footer a {
