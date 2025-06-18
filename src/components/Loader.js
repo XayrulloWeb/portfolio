@@ -50,7 +50,7 @@ const Loader = () => {
         left: 0,
         width: "100vw",
         height: "100vh",
-        backgroundColor: "rgba(15, 15, 15, 0.85)", // Чуть темнее и непрозрачнее фон
+        backgroundColor: "#000", // Чуть темнее и непрозрачнее фон
         color: "#f0f0f0", // Светлый цвет текста и точек
         display: "flex",
         justifyContent: "center",

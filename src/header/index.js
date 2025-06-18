@@ -23,16 +23,15 @@ const Headermain = () => {
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
-          <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
           </button>
-          
+
           </div>
         </div>
 
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
-          
+
           <div className="bg__menu h-100">
             <div className="menu__wrapper">
               <div className="menu__container p-3">
@@ -48,13 +47,7 @@ const Headermain = () => {
                   pointerEvents: "none",
                 }}
               >
-               <Lightning
-    hue={214}
-    xOffset={0}
-    speed={0.6}
-    intensity={2}
-    size={3}
-  />
+
               </div>
                   <li className="menu_item ">
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
@@ -86,7 +79,7 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
-      
+
     </>
   );
 };

@@ -205,3 +205,36 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+@media(max-width: 992px) {
+    .intro_sec{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_home{
+        text-align: center;
+
+    }
+    .home::before{
+        display: none;
+    }
+}
+@media(max-width: 600px) {
+    .card{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .stack-container{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .menu_item{
+        text-align: center;
+    }
+    .site__navigation{
+        background: #000;
+        opacity: 2;
+        z-index: 99;
+    }
+}

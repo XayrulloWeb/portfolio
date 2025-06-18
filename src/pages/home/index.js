@@ -16,7 +16,7 @@ export const Home = () => {
 
   const images = [
     { id: 1, img: img1 },
-    { id: 2, img: img2 },    
+    { id: 2, img: img2 },
     { id: 3, img: img3 },
     { id: 4, img: img4 },
   ];
@@ -55,9 +55,9 @@ export const Home = () => {
   transition={{ duration: 1.5, ease: "easeInOut" }}
 >
   <div className="intro_sec d-block d-lg-flex align-items-center">
-    
+
     <motion.div
-      className="text h-100 d-lg-flex justify-content-center"
+      className="text h-100 d-lg-flex justify-content-center text_home"
       initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
